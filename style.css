@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: hsl(0, 0%, 95%);
+}
+main{
+    width: 60%;
+    display: flex;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.sedan p{
+    width: 70%;
+    margin-top: 20px;
+}
+.suv p{
+    width: 70%;
+    margin-top: 20px;
+}
+.luxury p{
+    width: 70%;
+    margin-top: 20px;
+}
+main button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: none;
+}
+.sedan button{
+    color: hsl(31, 77%, 52%);
+}
+.suv button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury button{
+    color: hsl(179, 100%, 13%);
+}
